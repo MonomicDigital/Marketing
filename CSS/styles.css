@@ -14,7 +14,6 @@
 h1 {
   size: 3.5rem;
   line-height: 1.5;
-
 }
 
 .navbar {
@@ -291,7 +290,6 @@ h1 span {
 
 @media screen and (max-width: 992px) {
 
-
   .title-image {
     width: 100%;
   }
@@ -304,7 +302,7 @@ h1 span {
   }
 
   .odmak {
-    margin: 3% 30%;
+    margin: 4% 20%;
   }
 
   .O-nama-header {
@@ -330,6 +328,40 @@ h1 span {
   }
 
   .promoviraj {
-    font-size: 3.5rem;
+    font-size: 3rem;
   }
+
+  .big-heading {
+    font-size: 2rem;
+  }
+
+  .header-2 {
+    font-size: 3rem;
+  }
+
+  .logo {
+    height: 200px;
+    width: 200px;
+  }
+
+  .klijenti-header {
+    font-size: 4rem;
+  }
+
+  .klijenti-naslov {
+    font-size: 4rem;
+  }
+
+  .card {
+    padding-bottom: 4%;
+  }
+
+  .centar {
+    margin-right: 50%;
+  }
+
+  .o-nama-tekst1 {
+    font-size: 2rem;
+  }
+
 }
