@@ -219,5 +219,10 @@ label.error {
   }
    .navbar-brand {
     font-size: 2rem;
+    margin-right: 2px;
+  }
+
+  .navbar-toggler{
+    padding: 4px 6px;
   }
 }
