@@ -25,6 +25,10 @@ h6,
   color: #000;
 }
 
+.logo-brand {
+  width: 80px;
+  height: 60px;
+}
 
 a {
   -webkit-transition: .3s all ease;
