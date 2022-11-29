@@ -379,4 +379,12 @@ h1 span {
   .navbar-toggler{
     padding: 4px 6px;
   }
+  
+  .pozadina-logo{
+    padding: 0;
+  }
+
+  .tekst-logo{
+    padding: 0 20%;
+  }
 }
