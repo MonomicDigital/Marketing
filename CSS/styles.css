@@ -274,6 +274,13 @@ h1 span {
   text-align: right;
 }
 
+.o-nama-tekst2{
+  font-family: "Ubuntu";
+  font-size: 2rem;
+  color: white;
+  font-weight: 600;
+  line-height: 2;
+}
 
 .lista-tekst {
   font-family: "Ubuntu";
