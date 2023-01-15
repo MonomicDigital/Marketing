@@ -98,6 +98,10 @@ h1 span {
   float: left;
 }
 
+.gp-logo{
+  margin-right: 5%;
+}
+
 .tekst-logo {
   padding-left: 15%;
   font-size: large;
