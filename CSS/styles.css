@@ -304,6 +304,12 @@ h1 span {
   rotate: 15deg;
 }
 
+@media only screen and (min-width: 700px) and (max-width: 1600px){
+  .kontakt{
+    padding: 8% 15%;
+  }
+}
+
 @media screen and (max-width: 992px) {
 
   .title-image {
@@ -319,6 +325,10 @@ h1 span {
 
   .odmak {
     margin: 4% 20%;
+  }
+
+  .mail-logo{
+    margin: 4% 12%;
   }
 
   .O-nama-header {
