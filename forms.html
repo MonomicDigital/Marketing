@@ -87,7 +87,8 @@
             </div>
             <div class="col-md-6">
 
-              <form class="mb-5" method="post" id="contactForm" name="contactForm">
+              <form class="mb-5" enctype="multipart/form-data" method="POST" id="contactForm" name="contactForm"
+               action="https://formspree.io/f/xnqynnaa">
                 <div class="row">
                   <div class="col-md-12 form-group">
                     <input type="text" class="form-control" name="name" id="name" placeholder="Your name">
@@ -113,6 +114,8 @@
                   <div class="col-12">
                     <input type="submit" value="Send Message" class="btn btn-primary rounded-0 py-2 px-4">
                     <span class="submitting"></span>
+                    <input type="hidden" name="_next" value="your-success-page.html">
+                    <input type="hidden" name="_subject" value="New message from your contact form">
                   </div>
                 </div>
               </form>
@@ -131,14 +134,6 @@
   <footer id="footer">
     <p class="copyright-tekst">@ COPYRIGHT 2022 MONOMIC</p>
   </footer>
-
-
-
-  <script src="form\js\jquery-3.3.1.min.js"></script>
-  <script src="form\js\popper.min.js"></script>
-  <script src="form\js\bootstrap.min.js"></script>
-  <script src="form\js\jquery.validate.min.js"></script>
-  <script src="form\js\main.js"></script>
 
 </body>
 
