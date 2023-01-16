@@ -383,10 +383,15 @@ h1 span {
   }
 
   .o-nama-tekst1 {
-    font-size: 1.1rem;
-    font-weight: 300;
+    font-size: 1.3rem;
+    font-weight: 400;
   }
 
+  .o-nama-tekst2 {
+    font-size: 1.3rem;
+    font-weight: 400;
+  }
+  
   .logo-brand {
     height: 40px;
     width: 60px;
