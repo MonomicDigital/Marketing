@@ -258,7 +258,7 @@ h1 span {
   font-family: "Ubuntu";
   font-size: 1.7rem;
   color: white;
-  font-weight: 600;
+  font-weight: 200;
   line-height: 1.7;
 }
 
@@ -282,7 +282,7 @@ h1 span {
   font-family: "Ubuntu";
   font-size: 2rem;
   color: white;
-  font-weight: 600;
+  font-weight: 200;
   line-height: 2;
 }
 
@@ -384,12 +384,12 @@ h1 span {
 
   .o-nama-tekst1 {
     font-size: 1.4rem;
-    font-weight: 500;
+    font-weight: 100;
   }
 
   .o-nama-tekst2 {
     font-size: 1.4rem;
-    font-weight: 400;
+    font-weight: 100;
   }
   
   .logo-brand {
