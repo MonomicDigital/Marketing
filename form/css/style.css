@@ -14,7 +14,6 @@ body {
   height: 60px;
 }
 
-
 h1,
 h2,
 h3,
@@ -207,4 +206,108 @@ label.error {
   opacity: 70%;
   padding: 4% 2%;
   text-align: center;
+}
+
+@media screen and (max-width: 992px) {
+
+  .title-image {
+    width: 100%;
+  }
+
+  .logo {
+    display: block;
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .odmak {
+    margin: 4% 20%;
+  }
+
+  .O-nama-header {
+    margin-left: 0;
+  }
+
+  .button {
+    margin-left: 0;
+    margin-bottom: 20%;
+  }
+
+  .o-nama-slika1 {
+    height: 100%;
+    width: 100%;
+    padding-bottom: 15%;
+  }
+
+  .o-nama-slika2 {
+    height: 100%;
+    width: 100%;
+    padding-bottom: 15%;
+    rotate: 0deg;
+  }
+
+  .promoviraj {
+    font-size: 3rem;
+  }
+
+  .big-heading {
+    font-size: 2rem;
+  }
+
+  .header-2 {
+    font-size: 3rem;
+  }
+
+  .logo {
+    height: 200px;
+    width: 200px;
+  }
+
+  .klijenti-header {
+    font-size: 4rem;
+  }
+
+  .klijenti-naslov {
+    font-size: 4rem;
+  }
+
+  .card {
+    padding-bottom: 4%;
+  }
+
+  .centar {
+    margin-right: 50%;
+  }
+
+  .o-nama-tekst1 {
+    font-size: 2rem;
+  }
+
+  .o-nama-tekst2{
+    font-size: 2rem;
+  }
+
+  .logo-brand {
+    height: 40px;
+    width: 60px;
+    margin-top: 3%;
+  }
+
+  .navbar-brand {
+    font-size: 2rem;
+    margin-right: 2%;
+  }
+
+  .navbar-toggler{
+    padding: 4px 6px;
+  }
+
+  .pozadina-logo{
+    padding: 0;
+  }
+
+  .tekst-logo{
+    padding: 0 20%;
+  }
 }
