@@ -235,21 +235,25 @@ h1 span {
 }
 
 .o-nama-prvi {
-  background-color: #72dad9;
-  padding-top: 10%;
+  background-color: #f0f5fa;
+  padding-top: 0;
+  padding-right: 2%;
+  padding-left: 5%;
+  margin: 4% 0 6% 0;
 }
 
 .o-nama-naslov1 {
   font-family: "Ubuntu";
-  color: white;
-  font-size: 3.5rem;
+  color: black;
+  font-size: 4rem;
   font-weight: bold;
-  padding-bottom: 10%;
+  padding-bottom: 5%;
+  padding-left: 5%;
 }
 
 .o-nama-slika1 {
-  height: 45%;
-  width: 45%;
+  height: 40%;
+  width: 40%;
   float: left;
   margin-right: 5%;
 }
@@ -257,16 +261,20 @@ h1 span {
 .o-nama-tekst1 {
   font-family: "Ubuntu";
   font-size: 1.7rem;
-  color: white;
-  font-weight: 200;
+  color: black;
+  font-weight: 600;
   line-height: 1.7;
+  padding-top: 2%;
+  padding-right: 5%;
 }
 
 /* DRUGI DIO O NAMA */
 
 .o-nama-drugi {
-  background-color: cornflowerblue;
+  background-color: #192841;
   padding-left: 5%;
+  box-shadow: 0 3px 3px 3px;
+  padding-right: 5%;
 }
 
 .o-nama-naslov2 {
@@ -274,16 +282,20 @@ h1 span {
   color: white;
   font-size: 4rem;
   font-weight: bold;
-  padding-bottom: 10%;
+  padding-bottom: 2%;
+padding-right: 15%;
   text-align: right;
 }
 
 .o-nama-tekst2{
   font-family: "Ubuntu";
-  font-size: 2rem;
+  font-size: 1.9rem;
   color: white;
-  font-weight: 200;
-  line-height: 2;
+  font-weight: 500;
+  line-height: 1.7;
+  padding-top: 2%;
+  padding-right: 2%;
+  padding-left: 5%;
 }
 
 .lista-tekst {
@@ -298,10 +310,16 @@ h1 span {
 }
 
 .o-nama-slika2 {
-  height: 55%;
-  width: 55%;
+  height: 45%;
+  width: 45%;
   float: right;
-  rotate: 15deg;
+  padding-left: 10%;
+}
+
+.forma iframe {
+  width: 100%;
+  height: auto;
+  max-height: 1161px;
 }
 
 @media only screen and (min-width: 700px) and (max-width: 1600px){
@@ -414,5 +432,11 @@ h1 span {
   .tekst-logo{
     padding: 0 10%;
     margin-right: 0;
+  }
+
+  .forma{
+    iframe {  
+      height: 100vh;
+    }
   }
 }
