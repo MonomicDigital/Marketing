@@ -2,15 +2,28 @@
     background-color: #eae1e4;
 }
 
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+
 .container-fluid {
     padding: 3% 3%;
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+    box-sizing: border-box;
 }
+
 
 .logo-brand {
     height: 60px;
     width: 80px;
-    margin-top: -3%;
     margin-left: 2%;
+    margin-top: -3%;
 }
 
 .navbar-brand {
@@ -49,17 +62,6 @@
     margin-top: 5%;
 }
 
-.button {
-    margin-left: 0;
-    margin-bottom: 20%;
-    border: 2px solid black;
-    border-radius: 40px;
-    white-space: nowrap;
-    display: inline-block;
-    margin-top: 5%;
-    margin-left: 170%;
-}
-
 .promoviraj {
     font-size: 3rem;
     font-weight: bold;
@@ -96,7 +98,7 @@
     width: 60%;
     margin-left: auto;
     margin-right: auto;
-    
+
 }
 
 .tekst-logo {
@@ -109,15 +111,6 @@
 
 .shadow {
     box-shadow: 3px 3px 9px;
-}
-
-h1 {
-    font-size: 2rem;
-    line-height: 1.5;
-}
-
-h1 span {
-    background-color: black;
 }
 
 .heading {
@@ -195,40 +188,6 @@ h1 span {
     width: 100%;
     height: 100%;
 }
-.O-nama-header {
-    margin-left: 0;
-    font-size: 5rem;
-    font-weight: bold;
-    white-space: nowrap;
-    display: inline-block;
-    position: relative;
-    margin-left: 150%;
-    padding-top: 5%;
-}
-
-.o-nama-slika1,
-.o-nama-slika2 {
-    height: 100%;
-    width: 100%;
-    padding-bottom: 15%;
-}
-
-.o-nama-slika1 {
-    float: left;
-    margin-right: 5%;
-    height: 40%;
-    width: 40%;
-}
-
-.o-nama-slika2 {
-    rotate: 0deg;
-    float: right;
-    padding-left: 10%;
-    height: 45%;
-    width: 45%;
-}
-
-
 
 .klijenti-header,
 .klijenti-naslov {
@@ -255,70 +214,102 @@ h1 span {
     box-shadow: 0 20px 26px 0 rgba(0, 0, 0, 0.2);
 }
 
-/* O nama prvi dio */
-
-.o-nama-tekst1,
-.o-nama-tekst2 {
-    font-family: "Ubuntu";
-    font-size: 1.7rem;
-    font-weight: 600;
-    line-height: 1.7;
-    padding-top: 2%;
-    padding-right: 5%;
-}
-
-.o-nama-tekst2 {
-    color: white;
-    font-size: 1.9rem;
-    font-weight: 500;
-    padding-right: 2%;
-    padding-left: 5%;
-    text-align: right;
-}
+/*O - NAMA */
 
 .kontejner-o-nama {
     background-color: #d6eaff;
 }
 
+.O-nama-header {
+    font-size: 4rem;
+    font-weight: bold;
+    padding-top: 5%;
+    text-align: center;
+}
+
+.button {
+    margin-top: 5%;
+    margin-bottom: 20%;
+    border: 2px solid black;
+    border-radius: 40px;
+}
+
+.saznaj{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .O-nama-slika {
     width: 100%;
     height: 100%;
+    
 }
+
+/*PRVI DIO O-NAMA*/
 
 .o-nama-prvi {
     background-color: #f0f5fa;
-    padding-top: 0;
-    padding-right: 2%;
-    padding-left: 5%;
-    margin: 4% 0 6% 0;
 }
 
 .o-nama-naslov1 {
     font-family: "Ubuntu";
     color: black;
-    font-size: 4rem;
+    font-size: 3rem;
     font-weight: bold;
     padding-bottom: 5%;
     padding-left: 5%;
+    text-align: center;
+}
+
+.o-nama-slika1 {
+    height: 90%;
+    width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.o-nama-tekst1{
+    font-family: "Ubuntu";
+    font-size: 1.3rem;
+    font-weight: 500;
+    padding-top: 2%;
+    padding-right: 5%;
+    text-align: center;
 }
 
 /* DRUGI DIO O NAMA */
 
 .o-nama-drugi {
     background-color: #192841;
-    padding-left: 5%;
     box-shadow: 0 3px 3px 3px;
-    padding-right: 5%;
+    padding-bottom: 10%;
 }
 
 .o-nama-naslov2 {
     font-family: "Ubuntu";
     color: white;
-    font-size: 4rem;
+    font-size: 3rem;
     font-weight: bold;
-    padding-bottom: 2%;
-    padding-right: 15%;
-    text-align: right;
+    text-align: center;
+}
+
+.o-nama-slika2 {
+    height: 90%;
+    width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.o-nama-tekst2 {
+    font-family: "Ubuntu";
+    color: white;
+    font-size: 1.3rem;
+    font-weight: 500;
+    padding-top: 2%;
+    text-align: center;
 }
 
 .lista-tekst {
@@ -336,4 +327,13 @@ h1 span {
     width: 100%;
     height: auto;
     max-height: 1161px;
+}
+
+h1 {
+    font-size: 2rem;
+    line-height: 1.5;
+}
+
+h1 span {
+    background-color: black;
 }
