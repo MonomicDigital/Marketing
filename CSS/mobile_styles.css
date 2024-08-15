@@ -1,0 +1,341 @@
+#title {
+    background-color: #eae1e4;
+}
+
+.container-fluid {
+    padding: 3% 3%;
+}
+
+
+
+.logo-brand {
+    height: 65px;
+    width: 80px;
+    margin-top: 1%;
+    margin-left: 2%;
+}
+
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-right: 2px;
+}
+
+.navbar-toggler {
+    padding: 4px 6px;
+    align-items: right;
+    margin-left: 5%;
+    margin-right: 7%;
+}
+
+.navbar {
+    padding: 0 0 2rem;
+}
+
+.nav-item {
+    padding: 0 19px;
+    margin-left: 5%;
+    white-space: nowrap;
+    display: inline-block;
+    text-align: center;
+}
+
+.nav-link {
+    font-size: 1.7rem;
+}
+
+.dugme {
+    font-family: "Ubuntu";
+    color: gray;
+    margin-top: 5%;
+}
+
+.button {
+    margin-left: 0;
+    margin-bottom: 20%;
+    border: 2px solid black;
+    border-radius: 40px;
+    white-space: nowrap;
+    display: inline-block;
+    margin-top: 5%;
+    margin-left: 170%;
+}
+
+.promoviraj {
+    font-size: 3rem;
+    font-weight: bold;
+    color: white;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.big-heading {
+    font-size: 2.3rem;
+    font-weight: 400;
+    text-align: center;
+}
+
+.title-image {
+    width: 100%;
+    align-items: center;
+    margin-top: 15%;
+    padding-bottom: 15%;
+    padding-right: 5%;
+    padding-left: 5%;
+}
+
+.header-2 {
+    padding: 10% 5% 0 5%;
+    font-size: 3rem;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+.logo {
+    display: block;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.tekst-logo {
+    padding: 0 5%;
+    font-size: 1.3rem;
+    text-align: center;
+    font-weight: 500;
+    margin-top: 7%;
+}
+
+.shadow {
+    box-shadow: 3px 3px 9px;
+}
+
+h1 {
+    font-size: 2rem;
+    line-height: 1.5;
+}
+
+h1 span {
+    background-color: black;
+}
+
+.heading {
+    padding-top: 7%;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    padding: 2% 0;
+    margin: 0;
+}
+
+.horizontalline {
+    border: 2px solid rgb(17, 17, 17);
+    border-radius: 20px;
+    margin: 10% 10%;
+}
+
+.kontakt {
+    background-color: #dff0f5;
+    align-items: center;
+    padding: 4% 0;
+    box-shadow: 4px 4px 6px;
+    text-align: center;
+}
+
+.kontakt-tekst {
+    white-space: nowrap;
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    font-family: "Ubuntu";
+    font-size: 1.1rem;
+}
+
+.kontakt-tekst:hover {
+    color: gray;
+}
+
+.hrkontaktcopy {
+    margin: 0;
+}
+
+.odmak {
+    margin: 2% 20%;
+}
+
+.copyright {
+    background-color: gray;
+    padding: 4% 0;
+}
+
+.copyright-tekst {
+    margin-bottom: 0;
+    text-align: center;
+    opacity: 50%;
+}
+
+#footer {
+    background-color: #93b9c4;
+    opacity: 70%;
+    padding: 4% 2%;
+    text-align: center;
+}
+
+/* KLIJENTI CSS */
+
+.kontainer-klijenti {
+    background-color: #fffeba;
+    padding-bottom: 0;
+}
+
+.klijenti-slika {
+    width: 100%;
+    height: 100%;
+}
+.O-nama-header {
+    margin-left: 0;
+    font-size: 5rem;
+    font-weight: bold;
+    white-space: nowrap;
+    display: inline-block;
+    position: relative;
+    margin-left: 150%;
+    padding-top: 5%;
+}
+
+.o-nama-slika1,
+.o-nama-slika2 {
+    height: 100%;
+    width: 100%;
+    padding-bottom: 15%;
+}
+
+.o-nama-slika1 {
+    float: left;
+    margin-right: 5%;
+    height: 40%;
+    width: 40%;
+}
+
+.o-nama-slika2 {
+    rotate: 0deg;
+    float: right;
+    padding-left: 10%;
+    height: 45%;
+    width: 45%;
+}
+
+
+
+.klijenti-header,
+.klijenti-naslov {
+    font-size: 5rem;
+    font-weight: bold;
+    position: relative;
+    padding-top: 5%;
+    padding-left: 5%;
+    font-weight: 500;
+}
+
+.card {
+    padding-bottom: 4%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+    width: 100%;
+    margin-left: 10%;
+    margin-top: 5%;
+    text-align: center;
+}
+
+.card:hover {
+    box-shadow: 0 20px 26px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* O nama prvi dio */
+
+.o-nama-tekst1,
+.o-nama-tekst2 {
+    font-family: "Ubuntu";
+    font-size: 1.7rem;
+    font-weight: 600;
+    line-height: 1.7;
+    padding-top: 2%;
+    padding-right: 5%;
+}
+
+.o-nama-tekst2 {
+    color: white;
+    font-size: 1.9rem;
+    font-weight: 500;
+    padding-right: 2%;
+    padding-left: 5%;
+    text-align: right;
+}
+
+.kontejner-o-nama {
+    background-color: #d6eaff;
+}
+
+.O-nama-slika {
+    width: 100%;
+    height: 100%;
+}
+
+.o-nama-prvi {
+    background-color: #f0f5fa;
+    padding-top: 0;
+    padding-right: 2%;
+    padding-left: 5%;
+    margin: 4% 0 6% 0;
+}
+
+.o-nama-naslov1 {
+    font-family: "Ubuntu";
+    color: black;
+    font-size: 4rem;
+    font-weight: bold;
+    padding-bottom: 5%;
+    padding-left: 5%;
+}
+
+/* DRUGI DIO O NAMA */
+
+.o-nama-drugi {
+    background-color: #192841;
+    padding-left: 5%;
+    box-shadow: 0 3px 3px 3px;
+    padding-right: 5%;
+}
+
+.o-nama-naslov2 {
+    font-family: "Ubuntu";
+    color: white;
+    font-size: 4rem;
+    font-weight: bold;
+    padding-bottom: 2%;
+    padding-right: 15%;
+    text-align: right;
+}
+
+.lista-tekst {
+    font-family: "Ubuntu";
+    font-size: 1.5rem;
+    margin: 3% 0;
+    color: white;
+}
+
+.fa-circle-dot {
+    padding-right: 2%;
+}
+
+.forma iframe {
+    width: 100%;
+    height: auto;
+    max-height: 1161px;
+}
